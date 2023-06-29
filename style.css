@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     margin-right: auto;
+    margin-left: auto;
     gap: 32px;
     list-style: none;
 }
@@ -27,9 +28,9 @@ body {
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    margin: 10px auto 50px 200px;
-    width: 150px;
-    height: 70px;   
+    margin: 10px auto 50px 150px;
+    width: 100px;
+    height: 50px;   
 }
 
 .hero {
@@ -44,7 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 400px;
+    width: 500px;
     text-align: start;
 }
 
@@ -53,6 +54,7 @@ body {
     font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .secondary-text {
@@ -60,7 +62,6 @@ body {
     color: #e5e7eb;
     font-size: 18px;
     margin-top: 0px;
-
 }
 
 .button-hero {
@@ -75,7 +76,6 @@ body {
 }
 
 .hero-img {
-    
     height: 250px;
     width: 500px;
     text-align: end;
@@ -87,9 +87,7 @@ body {
     text-align: center;
     background: white;
     margin: 100px -10px 0px -10px;
-    
     padding-bottom: 100px;
-    
 }
 
 .main-title {
@@ -120,26 +118,58 @@ body {
     text-align: center; 
     margin-top: 100px;
     font-weight: light;
-    
 }
 
 .quote-title {
-    
     margin: 0 auto;
     padding: 100px;
     font-family: 'Roboto', sans-serif;
+    font-size: light;
+    font-style: italic;
     color: #1F2937;
     font-size: 36px;
-    text-shadow: 0px 0px 1px #1F2937;
     width: 700px;
-    
-
 }
 
 .newton {
     text-align: end;
     color: #1F2937;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    background: #3882F6;
+    padding: 30px 120px;
+    margin: 100px 150px 0 150px;
+    border-radius: 7px;
+}
+
+.cta-title {
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+}
+
+.cta-text {
+    color: white;
+    text-align: end;
+    margin-top: -20px;
+}
+.cta-button {
+    height: 40px;
+    margin: auto 0 auto auto;
+    background: #3882F6;
+    color: white;
+    text-shadow: 0px 0px 1px white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0px 30px;
     font-weight: bold;
     font-size: 18px;
 }
